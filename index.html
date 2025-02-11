@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/Assets/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1MBW371QVo0x_QVfXb-uoH8S7OQAI-Y3K/view?usp=drive_link" target="_blank" download class="btn resume-btn">Download Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="/Assets/images/Ezra Kipkemoi.jpg" alt="Profile Picture">
+                <p><strong>Hello!</strong> <br><strong>My name is Ezra Kipkemoi </strong> <br> I'm a web developer passionate about creating responsive and user-friendly websites. I have experience in HTML, CSS, JavaScript, and more. Let's build something amazing together!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+                    <h3>HTML</h3>
+                    <p>I have extensive experience in writing semantic and accessible HTML. I can structure web pages efficiently and ensure compatibility across all modern browsers.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+                    <h3>CSS</h3>
+                    <p>I specialize in creating responsive and visually appealing designs using CSS. I'm proficient in Flexbox, Grid, and animations to enhance user experience.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo">
+                    <h3>JavaScript</h3>
+                    <p>I use JavaScript to add interactivity and dynamic behavior to websites. I'm familiar with ES6+ syntax, DOM manipulation, and basic API integration.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap Logo">
+                    <h3>Bootstrap</h3>
+                    <p>I leverage Bootstrap to build responsive and mobile-first websites quickly. I can customize Bootstrap components and integrate them seamlessly into projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+                
+                <a href="tel:+254798594411">
+                    <button type="button" class="btn">Send Message</button>
+                 </a>
+                 
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
